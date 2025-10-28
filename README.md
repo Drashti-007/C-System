@@ -1,14 +1,13 @@
-# C Systems Lab
+# C Systems
 
-This repository contains my learning and code implementations in **Cryptography**, **Blockchain**, and **Networking** — all written in **C language**.
+This repository contains core C-language implementations exploring **Cryptography**, **Blockchain**, and **Networking** concepts.  
+Each folder represents one major area of system-level understanding.
 
-## Objective
-To explore low-level systems programming and security concepts in C.
+## Structure
+- **cryptography/** → Basic encryption & hashing algorithms (Caesar, XOR, SHA-256 logic)
+- **blockchain/** → Block creation, linking, and simple chain simulation
+- **networking/** → Client-server communication using socket programming
 
-## Tools
-- GCC Compiler  
-- VS Code / Code::Blocks  
-- Git & GitHub  
-
-## License
-This project is licensed under the [MIT License](./LICENSE).
+## Goals
+- Understand and manually read/analyze C code.
+- Implement, compile, and push working code.
