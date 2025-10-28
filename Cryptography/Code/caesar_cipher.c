@@ -63,7 +63,7 @@ void decrypt(char text[], int key){
     else if (isupper(ch)){
       text[i] = (ch - 'A' - key + 26) % 26 + 'A';
     }
-    else if (isdigital(ch)){
+    else if (isdigit(ch)){
       text[i] = (ch - '0' - key + 10) % 10 + '0';
     }
     // else -> leaves unchange
