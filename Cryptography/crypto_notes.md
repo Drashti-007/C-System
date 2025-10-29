@@ -20,3 +20,13 @@ on the internet and to protect confidential transactions such as credict card an
    - Example: RSA, Elliptic Curve Cryptography.
    - More secure, but slower than symmetric.
    
+## Symmetric Cryptography Algorithms
+
+| Algorithms | Description | Strength | Weaknesses |
+|------------|-------------|----------|------------|
+| Caesar Cipher| Shifts each letter by a fixed number ( A -> D, B -> E, etc ) | Easy to implement | Easy to break (bruteforce) |
+| Substitution Cipher | Each letter replaced with another symbol/letter | Slightly stronger | Still guessable with frequency analysis |
+| XOR Encryption | Performs bitwise XOR operation with a key | Fast, used in programming | Weak if key is small |
+| DES (Data Encryption Standard) | Uses 56-bit key encrypts data in blocks | Fast | Outdated (can be brute-forced) |
+| AES (Advanced Encryption Standard) | Modern standard 128/192/256-bit keys | Extremely secure | Slower on the weak devices |
+
