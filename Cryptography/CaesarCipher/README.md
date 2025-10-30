@@ -109,3 +109,7 @@ From this project:
 - Identified **where classical ciphers fail in modern cryptography**.
 - Learned how **security depends not just on algorithm, but on randomness, keyspace, and unpredictability**.
 
+## References
+- [Geeksforgeeks](https://www.geeksforgeeks.org/ethical-hacking/caesar-cipher-in-cryptography/)
+- [Scaler](https://www.scaler.com/topics/caesar-cipher-program-in-c/)
+- [Caesarcipher](https://www.math.stonybrook.edu/~moira/mat331-spr10/papers/1987%20LucianoCryptology%20From%20Caesar%20Ciphers%20to.pdf)
