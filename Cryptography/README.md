@@ -4,6 +4,5 @@ There’s never really an end to any topic — the deeper you dive, the more tre
 This folder contains everything I’m learning about **Cryptography**.
 
 - [Crypto Notes](https://github.com/Drashti-007/C-System/blob/main/Cryptography/crypto_notes.md) — Contains everything I’ve learned (and am still learning). Concepts are briefly explained here, with detailed breakdowns linked to supporting files for deeper understanding. 
-- [Code](https://github.com/Drashti-007/C-System/tree/main/Cryptography/Code) — Includes example implementations of cryptographic algorithms.
 
 Lastly, I’ll keep adding more notes, files, and codes as my understanding of this topic evolves.
