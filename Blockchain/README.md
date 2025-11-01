@@ -1,7 +1,7 @@
 # Blockchain — Theory, Mathematics, Programming & Security
 
 This code implements a simple **Blockchain** in the **C programming language**.
-It demonstrates the fundamental principles behind blockchain technology — including how blocks are linked, verified, and protected through cryptographic hashing.
+It demonstrates the fundamental principles behind blockchain technology, including how blocks are linked, verified, and protected through cryptographic hashing.
 The project covers the blockchain’s **theoretical foundation**, **mathematical model**, **programming implementation**, and **security perspective**.
 
 ## 1. Theoretical Overview
@@ -13,11 +13,11 @@ Each block contains essential data and a unique hash that ties it to the previou
 
 Each block consists of:
 
-* **Index** — Position of the block in the chain
-* **Timestamp** — When the block was created
-* **Data** — Transaction or message
-* **Previous Hash** — Hash of the previous block
-* **Hash** — Unique digital fingerprint of the current block
+* **Index** - Position of the block in the chain
+* **Timestamp** - When the block was created
+* **Data** - Transaction or message
+* **Previous Hash** - Hash of the previous block
+* **Hash** - Unique digital fingerprint of the current block
 
 ### Structure
 
@@ -32,7 +32,7 @@ If even a single block’s data changes, its hash changes, breaking the entire c
 ## 2. Mathematical Foundation
 
 Blockchain relies on **cryptographic hash functions**, which convert data into a fixed-size hash value.
-The hash acts like a fingerprint — deterministic, irreversible, and highly sensitive to input changes.
+The hash acts like a fingerprint - deterministic, irreversible, and highly sensitive to input changes.
 
 ### Hash Formula
 
@@ -44,10 +44,10 @@ hash = SHA256(index + previous_hash + timestamp + data)
 
 Where:
 
-* **index** → numerical position of the block
-* **previous_hash** → hash of the preceding block
-* **timestamp** → time of creation (seconds since epoch)
-* **data** → any string stored in the block
+* **index** - numerical position of the block
+* **previous_hash** - hash of the preceding block
+* **timestamp** - time of creation (seconds since epoch)
+* **data** - any string stored in the block
 
 The **SHA-256** algorithm is a one-way function that outputs a 256-bit (64 hex characters) hash.
 
